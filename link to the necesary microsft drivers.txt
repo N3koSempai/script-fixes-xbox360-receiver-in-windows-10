@@ -1,4 +1,8 @@
 http://download.windowsupdate.com/msdownload/update/driver/drvs/2012/12/20258516_288ade5984a88d007b5b3249e9d36ac3fb15f713.cab
 
 instruction::
+EN:
 extract and copy the contentns of the .cab into the same directory as the .bat
+
+ES:
+extrae y copia el contenido del archivo .cab suelto directamente en el directorio donde se encuentra el .bat
