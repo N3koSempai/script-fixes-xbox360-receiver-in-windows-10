@@ -181,6 +181,9 @@ cls
 FIND "%number%" xusb21.inf 
 echo --------------------------------------------------------
 echo Si ves 5 Lineas con este numero: %number% esta todo Bien
+pause
+REM active secure mode (windows test mode)
+bcdedit /set testsigning on
 REM create the secondary script
 echo @echo off > "step2(need admin right).bat"
 echo bcdedit /set testsigning off >> "step2(need admin right).bat"
